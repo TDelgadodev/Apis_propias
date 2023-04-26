@@ -4,14 +4,32 @@ const sequelize = db.sequelize;
 module.exports = {
   list: async (req, res) => {
     try {
-    } catch (error) {}
+    } catch (error) {
+
+    }
   },
   detail: async (req, res) => {
     try {
-    } catch (error) {}
+    } catch (error) {
+      
+    }
   },
+  store: async (req, res) => {
+    try {
+    } catch (error) {
 
-  store: async (req, res) => {},
-  update: async (req, res) => {},
-  destroy: async (req, res) => {},
+    }
+  },
+  update: async (req, res) => {
+    try {
+    } catch (error) {
+
+    }
+  },
+  destroy: async (req, res) => {
+    try {
+    } catch (error) {
+
+    }
+  },
 };

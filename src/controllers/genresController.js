@@ -5,7 +5,7 @@ const { getAllGenres, createGenre } = require("../services/genresServices");
 module.exports = {
   list: async (req, res) => {
     try {
-      const genres = await getAllGenres()
+      const genres = await getAllGenres();
       return res.status(200).json({
         ok : true,
         data : genres,
@@ -58,12 +58,19 @@ module.exports = {
     } catch (error) {
       
     }
-    createGenre
   },
   update : async (req,res) =>{
-
+    try {
+      
+    } catch (error) {
+      
+    }
   },
   destroy : async (req,res) =>{
-
+    try {
+      
+    } catch (error) {
+      
+    }
   },
 };

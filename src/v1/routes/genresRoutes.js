@@ -6,11 +6,11 @@ const {list,detail, store,update,destroy} = require('../../controllers/genresCon
 
 
 /* /genres */
-router.get('/genres',list);
-router.get('/genres/:id', detail);
-router.post('/genres',store);
-router.put('/genres/:id',update);
-router.delete('/genres/:id',destroy)
+router.get('/',list);
+router.get('/:id', detail);
+router.post('/',store);
+router.put('/:id',update);
+router.delete('/:id',destroy)
 
 
 

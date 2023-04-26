@@ -5,7 +5,7 @@ const {list,detail, store,update,destroy} = require('../../controllers/actorsCon
 
 
 
-/* /actors */
+/* /api/v1/actors */
 router.get('/',list);
 router.get('/:id', detail);
 router.post('/',store);
